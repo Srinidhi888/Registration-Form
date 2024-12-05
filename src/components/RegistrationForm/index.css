@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 30px;
+  height: 300px;
+  width: 350px;
+}
+h1 {
+  color: #ea580c;
+}
+input {
+  border-color: #cbd2d9;
+  height: 30px;
+  width: 270px;
+  border-width: 1px;
+  margin-top: 10px;
+}
+.submit-btn {
+  border-width: 0px;
+  background-color: #ea580c;
+  color: white;
+  height: 34px;
+  width: 80px;
+  border-radius: 5px;
+}
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.btn {
+  border-width: 0px;
+  background-color: #ea580c;
+  color: white;
+  height: 34px;
+  width: 180px;
+  border-radius: 5px;
+}
+.ima {
+  height: 100px;
+  width: 120px;
+}
+.box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  margin-top: 20px;
+}
+.para {
+  color: red;
+  margin: 0px;
+}
+.on-none {
+  border-color: red;
+  background-color: #fef2f4;
+  height: 30px;
+  width: 270px;
+}
